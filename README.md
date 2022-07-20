@@ -22,6 +22,7 @@
   - `conda install jupyter`
   - `conda install gdal`
   - `pip install git+https://github.com/shrutijain90/eetc.git@v0.0.10` 
+    - You may need to run `conda install git` before running the above command.
     - If you are unable to install the `gee-tools` repo using the above command, try installing it in edit mode as follows:
       - Clone the repo: `git clone https://github.com/shrutijain90/eetc.git`
       - cd into the repo directory 
@@ -32,5 +33,5 @@
   - `conda install -c anaconda scikit-learn`
   - `pip install eeconvert`
   - `conda install -c anaconda seaborn`
-- Authenticate earth engine 
+- Authenticate earth engine. You may need to have `gcloud` installed before using the authenticate command. You can follow [these](https://cloud.google.com/sdk/docs/install) instructions to do so.  
   - `earthengine authenticate`
