@@ -22,6 +22,10 @@
   - `conda install jupyter`
   - `conda install gdal`
   - `pip install git+https://github.com/shrutijain90/eetc.git@v0.0.10` 
+    - If you are unable to install the `gee-tools` repo using the above command, try installing it in edit mode as follows:
+      - Clone the repo: `git clone https://github.com/shrutijain90/eetc.git`
+      - cd into the repo directory 
+      - `pip install -e .`
   - `conda install pandas`
   - `conda install geopandas`
   - `conda install geemap -c conda-forge`
